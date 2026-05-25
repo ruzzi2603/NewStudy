@@ -1,0 +1,584 @@
+{
+  "lectures": [
+    {
+      "id": "lecture-1779735476987",
+      "title": "Introdução à Física Quântica Básica: Da Radiação de Corpo Negro à Dualidade Onda-Partícula",
+      "sourceUrl": "https://youtu.be/KjTtWwMxuc4?list=PLUY_aWRSP5rtlOzDQg2mb44NtiI_ljuuZ",
+      "category": "Física Quântica",
+      "moduleName": "Fundamentos de Física Moderna",
+      "duration": "45:15",
+      "status": "READY",
+      "progress": 100,
+      "summaryShort": "Uma introdução rigorosa aos conceitos fundamentais da mecânica quântica, incluindo a quantização da energia de Planck, o efeito fotoelétrico e a hipótese de de Broglie.",
+      "summaryFull": "Este material aborda os pilares da Física Quântica Básica, partindo da crise da física clássica no final do século XIX com a catástrofe do ultravioleta e a radiação de corpo negro. Explora-se a hipótese revolucionária de Max Planck sobre a quantização da energia e como Albert Einstein expandiu esse conceito para explicar o Efeito Fotoelétrico através dos fótons. Posteriormente, analisa-se a dualidade de De Broglie, que atribui propriedades ondulatórias a partículas massivas, culminando na formulação do Princípio da Incerteza de Heisenberg e na introdução qualitativa da Equação de Schrödinger.",
+      "learningObjectives": [
+        "Compreender a falha dos modelos clássicos na explicação da radiação de corpo negro e como a constante de Planck resolveu a catástrofe do ultravioleta.",
+        "Analisar o Efeito Fotoelétrico, calculando a função trabalho e a energia cinética máxima dos fotoelétrons emitidos.",
+        "Aplicar a relação de de Broglie para determinar o comprimento de onda associado a partículas massivas e entender o conceito de dualidade onda-partícula.",
+        "Interpretar o Princípio da Incerteza de Heisenberg em termos de limites de medição simultânea de posição e momento linear."
+      ],
+      "keyConcept": {
+        "title": "Quantização da Energia e Dualidade Onda-Partícula",
+        "body": "O pilar central da física quântica reside no entendimento de que certas propriedades físicas, como a energia de osciladores harmônicos ou o momento angular, ocorrem apenas em valores discretos (quanta), em oposição ao espectro contínuo previsto pela física clássica. Essa discretização iniciou-se com Max Planck em 1900. Além disso, a luz (tradicionalmente vista como onda) e a matéria (tradicionalmente vista como partícula) exibem comportamento dual, manifestando características de ambas as naturezas dependendo do arranjo experimental."
+      },
+      "transcriptionSegments": [
+        {
+          "time": "00:00",
+          "text": "Sejam bem-vindos à nossa introdução à Física Quântica. Hoje discutiremos as falhas da física clássica no século dezenove e o nascimento da constante de Planck."
+        },
+        {
+          "time": "08:30",
+          "text": "A catástrofe do ultravioleta demonstrou que as previsões clássicas divergiam infinitamente para altas frequências. Planck propôs que a troca de energia ocorre em pacotes discretos."
+        },
+        {
+          "time": "17:15",
+          "text": "Einstein utilizou a constante de Planck para explicar o efeito fotoelétrico. Ele sugeriu que a luz não é apenas emitida em pacotes, mas se propaga e interage como fótons individuais."
+        },
+        {
+          "time": "29:40",
+          "text": "Se ondas eletromagnéticas possuem momento linear, de Broglie propôs o inverso: partículas de massa m e velocidade v também devem possuir um comprimento de onda associado."
+        },
+        {
+          "time": "38:10",
+          "text": "O Princípio da Incerteza de Heisenberg estabelece uma barreira fundamental na precisão de medições físicas simultâneas de variáveis conjugadas, como posição e momento."
+        }
+      ],
+      "formulas": [
+        {
+          "title": "Relação de Planck-Einstein",
+          "latex": "E = h \\cdot f",
+          "description": "Calcula a energia de um único quantum de luz (fóton) com base em sua frequência.",
+          "application": "Utilizada para determinar a energia de emissão ou absorção de fótons em transições eletrônicas e no efeito fotoelétrico.",
+          "variables": [
+            {
+              "name": "E",
+              "explanation": "Energia do fóton em Joules (J) ou eletrão-volts (eV)."
+            },
+            {
+              "name": "h",
+              "explanation": "Constante de Planck (aprox. 6.626 x 10^-34 J·s)."
+            },
+            {
+              "name": "f",
+              "explanation": "Frequência da radiação eletromagnética em Hertz (Hz)."
+            }
+          ]
+        },
+        {
+          "title": "Equação do Efeito Fotoelétrico de Einstein",
+          "latex": "K_{max} = h \\cdot f - \\phi",
+          "description": "Determina a energia cinética máxima dos elétrons ejetados de uma superfície metálica.",
+          "application": "Cálculo do potencial de corte e determinação da função trabalho de diferentes metais iluminados por luz ultravioleta ou visível.",
+          "variables": [
+            {
+              "name": "K_{max}",
+              "explanation": "Energia cinética máxima dos fotoelétrons emitidos."
+            },
+            {
+              "name": "\\phi",
+              "explanation": "Função trabalho do metal, representando a energia mínima necessária para remover um elétron do material."
+            }
+          ]
+        },
+        {
+          "title": "Comprimento de Onda de de Broglie",
+          "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{m \\cdot v}",
+          "description": "Associa um comprimento de onda a qualquer corpo em movimento com momento linear p.",
+          "application": "Cálculo de comprimentos de onda de elétrons em microscopia eletrônica e experimentos de difração de partículas.",
+          "variables": [
+            {
+              "name": "\\lambda",
+              "explanation": "Comprimento de onda associado à partícula (metros)."
+            },
+            {
+              "name": "p",
+              "explanation": "Momento linear da partícula (kg·m/s)."
+            }
+          ]
+        },
+        {
+          "title": "Princípio da Incerteza de Heisenberg",
+          "latex": "\\Delta x \\cdot \\Delta p \\ge \\frac{\\hbar}{2}",
+          "description": "Estabelece o limite fundamental de precisão com que a posição e o momento de uma partícula podem ser conhecidos simultaneamente.",
+          "application": "Análise de flutuações quânticas no vácuo, largura de estados de energia de curta duração e confinamento eletrônico.",
+          "variables": [
+            {
+              "name": "\\Delta x",
+              "explanation": "Incerteza na medida da posição da partícula."
+            },
+            {
+              "name": "\\Delta p",
+              "explanation": "Incerteza na medida do momento linear da partícula."
+            },
+            {
+              "name": "\\hbar",
+              "explanation": "Constante de Planck reduzida (h dividido por 2*pi)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-lecture-1779735476987-0",
+          "question": "O que foi a 'Catástrofe do Ultravioleta' na física clássica?",
+          "answer": "Foi a previsão incorreta da física clássica de que um corpo negro em equilíbrio térmico emitiria radiação com intensidade tendendo ao infinito à medida que a frequência aumentasse em direção ao ultravioleta. Foi resolvida por Planck ao introduzir a quantização da energia.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735476987-1",
+          "question": "Como a frequência da luz incidente afeta o efeito fotoelétrico?",
+          "answer": "A frequência da luz determina a energia cinética dos elétrons ejetados. Se a frequência for menor que a frequência de corte, nenhum elétron é emitido, independentemente da intensidade da luz.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735476987-2",
+          "question": "O que postula a hipótese de de Broglie?",
+          "answer": "Postula que a matéria exibe um comportamento dual onda-partícula, onde qualquer partícula massiva em movimento possui uma onda de matéria associada cujo comprimento de onda é inversamente proporcional ao seu momento linear.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735476987-3",
+          "question": "Qual a diferença conceitual entre intensidade luminosa na física clássica e na quântica para o efeito fotoelétrico?",
+          "answer": "Na física clássica, maior intensidade aumentaria a energia cinética dos elétrons. Na física quântica, maior intensidade significa apenas um maior fluxo de fótons (mais elétrons ejetados por segundo), mas a energia cinética individual de cada elétron ejetado depende unicamente da frequência do fóton incidente.",
+          "reviewState": false
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-lecture-1779735476987-0",
+          "question": "Um fóton possui frequência igual a f. Se a frequência desse fóton for duplicada, o que acontecerá com a sua energia total?",
+          "options": [
+            "A energia do fóton será reduzida pela metade.",
+            "A energia do fóton será duplicada.",
+            "A energia do fóton permanecerá constante, mas sua velocidade aumentará."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "De acordo com a relação de Planck-Einstein (E = h * f), a energia E é diretamente proporcional à frequência f. Portanto, ao duplicar a frequência, a energia do fóton também duplica."
+        },
+        {
+          "id": "q-lecture-1779735476987-1",
+          "question": "No efeito fotoelétrico, se utilizarmos uma radiação com frequência menor do que a frequência limite (frequência de corte) do metal, o que ocorre ao aumentarmos drasticamente a intensidade dessa luz?",
+          "options": [
+            "Fotoelétrons começarão a ser ejetados após um tempo de acúmulo de energia clássico.",
+            "Nenhum elétron será ejetado, pois a energia individual dos fótons continua insuficiente para superar a função trabalho.",
+            "Elétrons de alta energia cinética serão emitidos devido ao choque simultâneo de múltiplos fótons."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O efeito fotoelétrico é um processo de interação individual de um fóton com um elétron. Se a energia de um único fóton (h*f) for menor do que a função trabalho, nenhum elétron será ejetado, independentemente da intensidade (quantidade de fótons por segundo)."
+        },
+        {
+          "id": "q-lecture-1779735476987-2",
+          "question": "Por que objetos macroscópicos do dia a dia (como uma bola de futebol) não exibem comportamento ondulatório observável, como a difração?",
+          "options": [
+            "Porque a constante de Planck é extremamente pequena, fazendo com que o comprimento de onda de de Broglie seja infinitesimalmente pequeno para massas grandes.",
+            "Porque objetos macroscópicos não possuem momento linear quando em movimento.",
+            "Porque a velocidade de corpos macroscópicos é sempre próxima à velocidade da luz, anulando o efeito ondulatório."
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "A fórmula de de Broglie é lambda = h / (m * v). Como a constante de Planck h é extremamente pequena (~10^-34 J·s) e a massa m de corpos macroscópicos é gigantesca em comparação às partículas subatômicas, o comprimento de onda resultante é ordens de grandeza menor do que qualquer obstáculo físico, tornando os efeitos de difração impossíveis de serem detectados."
+        }
+      ],
+      "chatHistory": [],
+      "createdAt": "2026-05-25T18:57:56.987Z"
+    },
+    {
+      "id": "lecture-1779735072847",
+      "title": "Equação de Primeiro Grau: Fundamentos e Resolução",
+      "sourceUrl": "https://youtu.be/x4k8950MVeg",
+      "category": "Mathematics",
+      "moduleName": "Basic Algebra",
+      "duration": "12:45",
+      "status": "READY",
+      "progress": 100,
+      "summaryShort": "Aprenda a estruturar, isolar a incógnita e resolver equações polinomiais de primeiro grau passo a passo.",
+      "summaryFull": "Este material de estudo aborda as equações de primeiro grau (equações lineares), detalhando o processo de isolamento da incógnita 'x' por meio de operações inversas. Explora-se o princípio da igualdade (balança), onde qualquer operação realizada em um lado da igualdade deve ser replicada no outro. O conteúdo abrange desde conceitos básicos de termos algébricos até a resolução de problemas práticos e verificação do conjunto solução.",
+      "learningObjectives": [
+        "Compreender o conceito de igualdade e a estrutura geral de uma equação de primeiro grau.",
+        "Aplicar as operações aritméticas inversas de adição, subtração, multiplicação e divisão para isolar a incógnita.",
+        "Verificar a validade de uma solução encontrada por meio da substituição (prova real).",
+        "Resolver problemas do cotidiano que possam ser modelados por equações lineares simples."
+      ],
+      "keyConcept": {
+        "title": "O Princípio da Balança e a Isolação da Incógnita",
+        "body": "Uma equação de primeiro grau é uma sentença matemática expressa por uma igualdade que contém pelo menos uma letra (incógnita) que representa um número desconhecido. O objetivo principal é encontrar o valor dessa incógnita que torna a sentença verdadeira. Para isso, imaginamos a equação como uma balança de dois pratos em equilíbrio absoluto. Qualquer operação (somar, subtrair, multiplicar ou dividir) realizada de um lado da igualdade deve obrigatoriamente ser realizada do outro lado para manter o equilíbrio. O processo termina quando a incógnita está isolada em um dos membros da equação, revelando seu valor numérico."
+      },
+      "transcriptionSegments": [
+        {
+          "time": "00:00",
+          "text": "Olá, pessoal! Hoje vamos aprender sobre equações de primeiro grau. Uma equação é basicamente uma igualdade com uma incógnita que queremos descobrir."
+        },
+        {
+          "time": "02:15",
+          "text": "Pense na equação como uma balança de dois pratos. Se você tirar 3 quilos de um lado, precisa tirar 3 quilos do outro para que ela continue equilibrada."
+        },
+        {
+          "time": "05:30",
+          "text": "Se temos ax + b = 0, o nosso objetivo é isolar o x. Primeiro, passamos o termo independente b para o outro lado mudando o sinal, ou seja, subtraindo b de ambos os lados."
+        },
+        {
+          "time": "08:45",
+          "text": "Agora, como o 'a' está multiplicando o 'x', nós dividimos os dois lados da igualdade por 'a', assumindo que 'a' é diferente de zero. Assim, encontramos x igual a menos b sobre a."
+        },
+        {
+          "time": "11:10",
+          "text": "Vamos fazer um exemplo prático: 2x - 6 = 0. Somamos 6 em ambos os lados, resultando em 2x = 6. Depois dividimos por 2, obtendo x = 3. Pronto, essa é a nossa solução!"
+        }
+      ],
+      "formulas": [
+        {
+          "title": "Forma Geral da Equação de Primeiro Grau",
+          "latex": "ax + b = 0",
+          "description": "Representa a estrutura padrão de uma equação linear com uma única variável, onde 'a' e 'b' são coeficientes reais conhecidos.",
+          "application": "Utilizada para modelar relações lineares e encontrar o ponto onde a função linear intercepta o eixo horizontal.",
+          "variables": [
+            {
+              "name": "a",
+              "explanation": "Coeficiente angular ou coeficiente da incógnita, deve ser diferente de zero (a \\neq 0)."
+            },
+            {
+              "name": "b",
+              "explanation": "Termo independente ou coeficiente linear."
+            },
+            {
+              "name": "x",
+              "explanation": "A incógnita ou variável cujo valor deseja-se determinar."
+            }
+          ]
+        },
+        {
+          "title": "Solução Geral da Equação de Primeiro Grau",
+          "latex": "x = -\\frac{b}{a}",
+          "description": "Fórmula direta para encontrar o valor da incógnita isolada, obtida ao realizar as operações inversas na forma geral.",
+          "application": "Resolução direta de qualquer equação linear simples de uma variável sem necessidade de passos intermediários repetitivos.",
+          "variables": [
+            {
+              "name": "x",
+              "explanation": "A raiz ou solução da equação."
+            },
+            {
+              "name": "b",
+              "explanation": "O termo independente da equação original."
+            },
+            {
+              "name": "a",
+              "explanation": "O coeficiente numérico que multiplica a incógnita, com restrição de que a \\neq 0."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-lecture-1779735072847-0",
+          "question": "O que define uma equação de 'primeiro grau'?",
+          "answer": "O fato de que o maior expoente da incógnita (variável) na equação é igual a 1. Isso resulta em um comportamento linear.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735072847-1",
+          "question": "O que é o princípio da igualdade em uma equação?",
+          "answer": "É a regra que determina que qualquer operação aritmética aplicada a um membro da equação deve ser aplicada de forma idêntica ao outro membro para manter o equilíbrio e a validade da igualdade.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735072847-2",
+          "question": "Qual a restrição fundamental para o coeficiente 'a' na equação ax + b = 0?",
+          "answer": "O coeficiente 'a' deve ser diferente de zero (a != 0), pois se for igual a zero, a incógnita desaparece e não teremos mais uma equação de primeiro grau.",
+          "reviewState": false
+        },
+        {
+          "id": "fc-lecture-1779735072847-3",
+          "question": "Como se faz a 'prova real' ou verificação de uma equação?",
+          "answer": "Substitui-se a incógnita pelo valor encontrado na equação original. Se o resultado do lado esquerdo for idêntico ao do lado direito, a solução está correta.",
+          "reviewState": false
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-lecture-1779735072847-0",
+          "question": "Dada a equação 3x - 12 = 0, qual é o valor correto de x?",
+          "options": [
+            "x = -4",
+            "x = 4",
+            "x = 12"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Para isolar o x, adicionamos 12 a ambos os lados da equação, resultando em 3x = 12. Em seguida, dividimos ambos os lados por 3, o que nos dá x = 12 / 3, logo x = 4. A opção x = 4 é a correta. A opção x = -4 está incorreta devido ao erro de sinal, e x = 12 é apenas o termo independente transposto sem a divisão final."
+        },
+        {
+          "id": "q-lecture-1779735072847-1",
+          "question": "Qual das seguintes sentenças matemáticas NÃO representa uma equação de primeiro grau com uma incógnita?",
+          "options": [
+            "2x + 5 = 15",
+            "x^2 - 4 = 0",
+            "3y - 7 = 2y + 1"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A sentença x^2 - 4 = 0 possui a incógnita x elevada ao expoente 2, o que a caracteriza como uma equação de segundo grau (equação quadrática). As outras duas possuem apenas expoente 1 implicitamente nas incógnitas x e y, sendo classificadas como de primeiro grau."
+        },
+        {
+          "id": "q-lecture-1779735072847-2",
+          "question": "Resolva a equação 5(x - 2) = 2x + 8. Qual é o valor de x?",
+          "options": [
+            "x = 6",
+            "x = 2",
+            "x = 4"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Primeiro, aplicamos a propriedade distributiva no lado esquerdo: 5x - 10 = 2x + 8. Em seguida, agrupamos os termos com x de um lado e os termos independentes do outro: 5x - 2x = 8 + 10, o que resulta em 3x = 18. Dividindo ambos os lados por 3, obtemos x = 18 / 3, ou seja, x = 6."
+        }
+      ],
+      "chatHistory": [],
+      "createdAt": "2026-05-25T18:51:12.847Z"
+    },
+    {
+      "id": "lecture-1",
+      "title": "Quantum Entanglement and Information Theory",
+      "sourceUrl": "https://www.youtube.com/watch?v=zN_3EAsbyNo",
+      "category": "Advanced Physics",
+      "moduleName": "Module 4",
+      "duration": "42:15",
+      "status": "READY",
+      "progress": 100,
+      "summaryShort": "A deep dive into the mathematical foundations of EPR paradox and Bell's inequality in the context of modern quantum computing.",
+      "summaryFull": "This lecture introduces quantum entanglement, exploring the EPR paradox that troubled the founders of quantum mechanics, and dives into the mathematics of the Bell States. We analyze the Bell's inequality (CHSH formulation) and show how experimental violations of local realism prove that quantum information is non-locally distributed, serving as the raw material for quantum teleportation and cryptography like QKD.",
+      "learningObjectives": [
+        "Defining non-locality in quantum mechanics vs classic local realism",
+        "Deriving and understanding the CHSH formulation of Bell's Inequality",
+        "Analyzing applications of entanglement in Quantum Key Distribution (QKD)"
+      ],
+      "keyConcept": {
+        "title": "The Bell State",
+        "body": "The Bell states are four specific maximally entangled quantum states of two qubits. They represent the simplest possible examples of quantum entanglement."
+      },
+      "transcriptionSegments": [
+        {
+          "time": "00:00",
+          "text": "Good morning everyone. Today we're diving into what Einstein famously called 'spooky action at a distance.' We'll start with the EPR paradox."
+        },
+        {
+          "time": "04:30",
+          "text": "When we speak about entanglement, we aren't just saying things are related. We are saying that the information itself is distributed globally across the wave function."
+        },
+        {
+          "time": "12:15",
+          "text": "Now let's look at the mathematics of Bell States. If we have two qubits in a singlet state, we can write down the wavefunction as the superposition of anti-correlated spin states."
+        },
+        {
+          "time": "28:50",
+          "text": "In 1964, John Stewart Bell showed that any local hidden-variable theory must satisfy a mathematical limit, which we'll derive here. Quantum mechanics violates this limit."
+        },
+        {
+          "time": "38:00",
+          "text": "In conclusion, this violation isn't a bug; it is the core resource powering everything from teleportation to military-grade quantum cryptography."
+        }
+      ],
+      "formulas": [
+        {
+          "title": "Singlet State Wavefunction",
+          "latex": "|\\psi^-\\rangle = \\frac{1}{\\sqrt{2}} (|01\\rangle - |10\\rangle)",
+          "description": "Represents a pair of entangled qubits with zero total angular momentum. Measuring one qubit instantly collapses the other into the opposite state.",
+          "variables": [
+            {
+              "name": "|\\psi^-\\rangle",
+              "explanation": "The state vector of the system"
+            },
+            {
+              "name": "|01\\rangle, |10\\rangle",
+              "explanation": "Computational basis states"
+            }
+          ],
+          "application": "Used as the primary entangled channel in quantum teleportation and E91 cryptography."
+        },
+        {
+          "title": "Bell's Inequality (CHSH)",
+          "latex": "|E(a,b) - E(a,b')| + |E(a',b) + E(a',b')| \\leq 2",
+          "description": "The mathematical inequality under local realism constraint. Quantum mechanics achieves a Tsirelson limit of 2\\sqrt{2}, proving non-locality.",
+          "variables": [
+            {
+              "name": "E(x,y)",
+              "explanation": "Expectation value of joint measurements at detector angles x and y"
+            },
+            {
+              "name": "a, a', b, b'",
+              "explanation": "Measurement settings for Alice's and Bob's detectors"
+            }
+          ],
+          "application": "Used in device-independent quantum cryptography to check if an eavesdropper is intercepting the key."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-1-1",
+          "question": "What is quantum entanglement?",
+          "answer": "A physical phenomenon where multiple particles interact such that the quantum state of each particle cannot be described independently of the others."
+        },
+        {
+          "id": "fc-1-2",
+          "question": "What limit does local realism place on CHSH?",
+          "answer": "Under local realism, the CHSH sum must be less than or equal to 2."
+        },
+        {
+          "id": "fc-1-3",
+          "question": "What is the maximum quantum violation value of the CHSH inequality?",
+          "answer": "Quantum mechanics can violate the inequality up to 2\\sqrt{2} (~2.828), which is known as Tsirelson's bound."
+        },
+        {
+          "id": "fc-1-4",
+          "question": "Name a real-world application of Bell's Theorem.",
+          "answer": "Device-unique Quantum Key Distribution (QKD) protocols like Ekert91."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-1-1",
+          "question": "Which of the following best describes the 'EPR Paradox' conclusion regarding local realism?",
+          "options": [
+            "Quantum mechanics is complete but non-local.",
+            "Quantum mechanics must be incomplete because local realism is preserved.",
+            "Bell's Theorem proves that physical hidden variables must exist."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Einstein, Podolsky, and Rosen argued that physical reality should be local and complete, thus quantum mechanics' non-local predictions must imply the theory is incomplete."
+        },
+        {
+          "id": "q-1-2",
+          "question": "What is the classical limit for the CHSH inequality versus the quantum Tsirelson limit?",
+          "options": [
+            "Classical limit is 1, Quantum is 2",
+            "Classical limit is 2, Quantum is 2.82",
+            "Classical limit is 4, Quantum is 8"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Under local realism (classical physics), the CHSH sum is <= 2. Quantum entangled states violate this, reaching up to 2*sqrt(2) ≈ 2.82."
+        }
+      ],
+      "chatHistory": [],
+      "createdAt": "2026-05-25T18:50:32.781Z"
+    },
+    {
+      "id": "lecture-2",
+      "title": "Advanced Data Structures and Algorithms",
+      "sourceUrl": "https://www.youtube.com/watch?v=RBSGKlAia30",
+      "category": "Computer Science",
+      "moduleName": "MIT 6.001",
+      "duration": "42:15",
+      "status": "READY",
+      "progress": 100,
+      "summaryShort": "Analyzing amortized runtime efficiency, splay tree rotations, and implementing sub-linear query Fibonacci heaps.",
+      "summaryFull": "This lecture presents advanced mechanisms for balancing performance. We explore amortized cost analysis using the potential method and prove bounds on self-adjusting data structures, primarily splay trees and Fibonacci heaps, demonstrating performance boosts in network routing algorithms.",
+      "learningObjectives": [
+        "Explain the Potential Method of amortized analysis",
+        "Demonstrate splay tree zig-zig and zig-zag rotation effects",
+        "Contrast Fibonacci heaps with standard Binary heaps for Dijkstra"
+      ],
+      "keyConcept": {
+        "title": "Amortized Analysis",
+        "body": "Amortized analysis guarantees the average performance of each operation in the worst-case sequence of operations, bypassing overly pessimistic individual bounds."
+      },
+      "transcriptionSegments": [
+        {
+          "time": "00:00",
+          "text": "Today we take dynamic sizing and tree indexing to the absolute limit."
+        },
+        {
+          "time": "10:30",
+          "text": "We define our potential function Phi. If an operation is cheap, it deposits energy; if it is expensive, we spend this stored potential energy."
+        }
+      ],
+      "formulas": [
+        {
+          "title": "Amortized Cost Definition",
+          "latex": "\\hat{c}_i = c_i + \\Phi(D_i) - \\Phi(D_{i-1})",
+          "description": "Defines the amortized cost of the i-th step, balancing actual cost with the change in potential of the data structure.",
+          "variables": [
+            {
+              "name": "\\hat{c}_i",
+              "explanation": "Amortized cost"
+            },
+            {
+              "name": "c_i",
+              "explanation": "Actual execution cost of the operation"
+            },
+            {
+              "name": "\\Phi(D)",
+              "explanation": "Calculated state potential function"
+            }
+          ],
+          "application": "Used under the Potential Method to prove O(log N) amortized splay tree access bounds."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-2-1",
+          "question": "What is a Splay Tree?",
+          "answer": "A self-adjusting binary search tree where recently accessed elements are quickly moved to the root via splay rotations."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-2-1",
+          "question": "Under the potential method, what does it mean if Phi(D_i) - Phi(D_i-1) is positive?",
+          "options": [
+            "The operation made the structure simpler, releasing potential.",
+            "The operation built up potential inside the structure, storing credits.",
+            "The database crashed during access."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A positive delta potential indicates that some work was stored as credit inside the database representation for later expensive steps."
+        }
+      ],
+      "chatHistory": [],
+      "createdAt": "2026-05-25T18:50:32.782Z"
+    },
+    {
+      "id": "lecture-3",
+      "title": "Modernist Philosophy in 20th Century Design",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nn_-4Xp38sc",
+      "category": "Architecture",
+      "moduleName": "History 101",
+      "duration": "1:24:00",
+      "status": "READY",
+      "progress": 100,
+      "summaryShort": "A historical dissection of Bauhaus, minimalist architecture, Bauhaus masteries, and functional aesthetics.",
+      "summaryFull": "We trace modernist design through the mid-20th century. Focusing on Ludwig Mies van der Rohe's 'less is more' and Walter Gropius at the Weimar Bauhaus school, we analyze the integration of technological mass production with pure form.",
+      "learningObjectives": [
+        "Critically explain Gropius' Bauhaus manifesto",
+        "Recognize Mies van der Rohe's steel-and-glass structural minimalism",
+        "Understand the economic factors of postwar residential design"
+      ],
+      "keyConcept": {
+        "title": "Form Follows Function",
+        "body": "The design principle stating that the shape of a building or object should be primarily based upon its intended function or purpose, eliminating useless ornamentation."
+      },
+      "transcriptionSegments": [
+        {
+          "time": "00:00",
+          "text": "We trace how industrial fabrication completely shook up structural philosophy."
+        }
+      ],
+      "formulas": [],
+      "flashcards": [
+        {
+          "id": "fc-3-1",
+          "question": "Who coined 'Less is More'?",
+          "answer": "Architect Ludwig Mies van der Rohe."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-3-1",
+          "question": "Which school of design is celebrated for integrating craftsmanship with mass production in Germany?",
+          "options": [
+            "The Beaux-Arts School",
+            "The Bauhaus School",
+            "The Rococo Guilds"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Founded in 1919 by Walter Gropius, Bauhaus integrated art and design with modern manufacturing technology."
+        }
+      ],
+      "chatHistory": [],
+      "createdAt": "2026-05-25T18:50:32.782Z"
+    }
+  ]
+}

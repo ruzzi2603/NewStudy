@@ -1,0 +1,6 @@
+{
+  "name": "Intelligent Video Study Platform",
+  "description": "An intelligent web application that transforms lecture or study video links into comprehensive structured learning materials including transcription, summaries, mathematical formulas, flashcards, diagnostic quizzes, and integrated Q&A.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
